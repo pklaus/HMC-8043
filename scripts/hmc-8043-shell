@@ -11,8 +11,6 @@ def main():
     instr =  vxi11.Instrument(args.host)
     print("The response to an *IDN? query is:")
     print(instr.ask("*IDN?"))
-    #print(instr.ask("SYSTem:BEEPer:STATe?"))
-    #print(instr.ask("APPLy?"))
 
     try:
         while True:
