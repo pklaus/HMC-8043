@@ -11,7 +11,11 @@ setup(name='hmc_8043',
       url = '',
       license = 'GPL',
       packages = ['hmc_8043'],
-      scripts = ['scripts/hmc-8043-shell'],
+      entry_points = {
+        'console_scripts': [
+          'hmc-8043-shell = hmc_8043.hmc_8043_shell:main',
+        ],
+      },
       zip_safe = True,
       platforms = 'any',
       requires = ['python_vxi11'],
