@@ -1,5 +1,7 @@
 
-## Python Interface for the R&D HMC 8043 power supply
+## Python Interface for the R&S HMC 8043 power supply
+
+The power supply is from Rohde & Schwarz, the division belonged to Hameg before.
 
 ### Installation
 
